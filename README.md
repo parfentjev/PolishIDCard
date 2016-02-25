@@ -10,16 +10,23 @@ card = PolishIDCard()
 
 # generate a new random card number
 card.generate()
-# OUTPUT: JON554756
+'JON554756'
 
 # get an already generated number
 card.get()
-# OUTPUT: JON554756
+'JON554756'
 
 # you can set own card number if you wish
 card.set('ABC123456')
 card.get()
-# OUTPUT: ABC123456
+'ABC123456'
+
+# validate an existing id card number length & check digit
+card.validate('ABC123456')
+False
+
+card.validate('XGG765762')
+True
 ```
 # Useful tools
 * [tiny-pesel-generator](https://github.com/dwabece/tiny-pesel-generator) - polish person identification number generator
