@@ -41,7 +41,6 @@ class PolishIDCard:
         doc_check = self.check(doc_digits, doc_letters2)
         temp = doc_letters1[0], doc_letters1[1], doc_letters1[2], str(doc_check), str(doc_digits)[1:]
         self.number = ''.join(temp)
-        print(self.number)
 
         return self.number
 
