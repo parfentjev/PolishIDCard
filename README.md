@@ -1,5 +1,5 @@
 # PolishIDCard
-A tiny tool to generate a fake polish id card (document) number for testing purposes.
+A tiny tool to generate and validate fake polish id card numbers.
 
 Based on the data from [this article](https://en.wikipedia.org/wiki/Polish_identity_card).
 
